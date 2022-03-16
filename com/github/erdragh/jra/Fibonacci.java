@@ -39,7 +39,7 @@ public class Fibonacci {
     }
 
     public static void tableRek(int n) throws IOException {
-        File f = new File("tableRek.csd");
+        File f = new File("tableRek.txt");
         if (!f.exists()) {
             f.createNewFile();
         }
@@ -55,7 +55,7 @@ public class Fibonacci {
         fw.close();
     }
     public static void tableIt(int n) throws IOException {
-        File f = new File("tableIt.csd");
+        File f = new File("tableIt.txt");
         if (!f.exists()) {
             f.createNewFile();
         }
